@@ -18,7 +18,7 @@ jobs:
       - name: Release AUR package
         uses: jbouter/aur-releaser@v0.0.7
         with:
-          pkgname: salt-lint
+          pkgname: touchegg
           pkgbuild: ./PKGBUILD
           commit_username: ${{ secrets.AUR_USERNAME }}
           commit_email: ${{ secrets.AUR_EMAIL }}
